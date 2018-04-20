@@ -1,0 +1,10 @@
+/Users/jimmy/Desktop/Address_Book_C/bin/Debug/netcoreapp1.1/Address.deps.json
+/Users/jimmy/Desktop/Address_Book_C/bin/Debug/netcoreapp1.1/Address.runtimeconfig.json
+/Users/jimmy/Desktop/Address_Book_C/bin/Debug/netcoreapp1.1/Address.runtimeconfig.dev.json
+/Users/jimmy/Desktop/Address_Book_C/bin/Debug/netcoreapp1.1/Address.dll
+/Users/jimmy/Desktop/Address_Book_C/bin/Debug/netcoreapp1.1/Address.pdb
+/Users/jimmy/Desktop/Address_Book_C/obj/Debug/netcoreapp1.1/Address.csproj.CoreCompileInputs.cache
+/Users/jimmy/Desktop/Address_Book_C/obj/Debug/netcoreapp1.1/Address.AssemblyInfoInputs.cache
+/Users/jimmy/Desktop/Address_Book_C/obj/Debug/netcoreapp1.1/Address.AssemblyInfo.cs
+/Users/jimmy/Desktop/Address_Book_C/obj/Debug/netcoreapp1.1/Address.dll
+/Users/jimmy/Desktop/Address_Book_C/obj/Debug/netcoreapp1.1/Address.pdb
