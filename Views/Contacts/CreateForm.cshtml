@@ -1,0 +1,15 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+<h1>Add a new contact to @Model.GetName()</h1>
+<form action='/contacts' method='post'>
+  <input id='address-id' name='address-id' type='hidden' value='@Model.GetId()'><br>
+  <label for='contact-name'>Name:</label>
+  <input id='contact-name' name='contact-name' type='text'><br>
+  <label for='contact-phone'>Phone Number:</label>
+  <input id='contact-phone' name='contact-phone' type='text'><br>
+  <label for='contact-place'>Address:</label>
+  <input id='contact-place' name='contact-place' type='text'><br>
+  <button type='submit'>Add contact</button>
+</form>
+
+<p><a href='/'>Back home</a></p>

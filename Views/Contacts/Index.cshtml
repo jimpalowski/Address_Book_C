@@ -1,0 +1,15 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+<h1>Contact List</h1>
+
+  @foreach (var contact in Model)
+  {
+    <p>Name: <a href='/contacts/@contact.GetId()'> @contact.GetContactName()</a><p>
+    <p>Phone Number:<a href='/contacts/@contact.GetId()'>@contact.GetNumber()</a></p>
+    <p>Address:<a href='/contacts/@contact.GetId()'>@contact.GetPlace()</a></p>
+    <hr>
+  }
+
+
+
+<a href='/contacts/new'>Add new contact</a>

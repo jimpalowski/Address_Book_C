@@ -1,0 +1,16 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+<h3>Here are all the contacts in this address book:</h3>
+@foreach (var contact in @Model["contacts"])
+{
+  <p>Name: <a href='/addresses/@Model["address"].GetId()/contacts/@contact.GetId()'>@contact.GetContactName() </a></p>
+  <p>Phone Number: <a href='/addresses/@Model["address"].GetId()/contacts/@contact.GetId()'>@contact.GetNumber() </a></p>
+  <p>Address: <a href='/addresses/@Model["address"].GetId()/contacts/@contact.GetId()'>@contact.GetPlace() </a></p>
+  <hr>
+}
+
+<p><button type="submit">@Session.Clear</a></p>
+
+<p><a href='/addresses/@Model["address"].GetId()/contacts/new'>Add a new contact</a></p>
+<p><a href='/addresses'>Return to address books</a></p>
+<p><a href='/'>Return to Main Page</a></p>
